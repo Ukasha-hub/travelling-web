@@ -6,13 +6,15 @@
 }
 
 div, nav, footer{
-    margin: 0 11vw;
+    margin: 0 11vw ;
+    
     padding: 0;
     
     font-family: Mulish;
 
     border: solid;
     border-width: 2px;
+   
     max-width: 3000px;
     
     
@@ -22,9 +24,9 @@ nav{
    
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 53px;
-    flex-wrap: wrap;
+    
 
 }
 
@@ -32,7 +34,7 @@ nav{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    right: 100px;
+    right: 60px;
     gap: 10px;
     position: relative;
     right: 170px;
@@ -140,14 +142,14 @@ nav > ul{
     margin-top: 50px;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-around;
     
     
     
 }
 
 .sec2-texts{
-    position: relative;
+    
     right: 170px;
     margin-right: -50px;
     text-align: justify;
@@ -262,15 +264,12 @@ nav > ul{
     align-items: center;
 }
 
-.sec4-cards{
-    margin-top: 50px;
-    display: grid;
-    
-}
+
+
 
 .card{
-    width: 573px;
-    height: 284px;
+    width: 300px;
+    height: 200px;
     border-radius: 16px;
     text-align: left;
     padding: 12px;
@@ -278,25 +277,44 @@ nav > ul{
 }
 
 
+.first-row{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: flex-start;
+    width: fit-content;
+}
+
 .sec5{
     margin-top: 50px;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
+    gap: 50px;
     
     
     
 }
 
 .sec5-texts{
-    position: relative;
-    left: 50px;
-    margin-left: -10px;
-    text-align: justify;
-    margin-bottom: 100px;
     
+    right:50px;
+    margin-right: -50px;
+    text-align: justify;
+    width: 600px;
     
   
+    
+}
+
+.sec5-texts p, .sec2-texts h1{
+    color: rgba(19, 19, 24, 0.70);
+
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
     
 }
 
@@ -337,6 +355,7 @@ nav > ul{
     position: relative;
     right: 170px;
     flex-wrap: wrap;
+    padding: 30px 0;
     
 }
 
