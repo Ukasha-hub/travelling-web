@@ -1,0 +1,110 @@
+*{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+div, nav{
+    margin: 0 11vw;
+    padding: 0;
+    
+    font-family: Mulish;
+
+    border: solid;
+    border-width: 2px;
+    max-width: 3000px;
+    
+    
+}
+
+nav{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 53px;
+    flex-wrap: wrap;
+
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    right: 100px;
+    gap: 10px;
+    position: relative;
+    right: 170px;
+    flex-wrap: wrap;
+    
+}
+
+.logo h2{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+
+}
+
+nav > ul{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.sec1{
+    margin-top: 50px;
+    background:  linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('Images/Group\ 13\ \(1\)\ \(1\).png');
+    height: 500px;
+    background-size: 1200px 500px;
+    background-position: center; 
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+    
+    
+    
+
+}
+
+.banner-text{
+    margin-bottom: 140px;
+    line-height: 40px;
+}
+
+.banner-form{
+    
+    margin-top: -50px;
+    background: rgba(255, 255, 255, 0.30);
+    left: 10%;
+    margin: 0 30%;
+    
+}
+
+.banner-form form{
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     padding: 30px;
+      
+}
+
+.sec2{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.sec2-texts{
+    position: relative;
+    right: 170px;
+    margin-right: -50px;
+    text-align: justify;
+    padding-top: -90px;
+    padding-bottom: 200px;
+    
+}
