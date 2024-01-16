@@ -5,7 +5,7 @@
     justify-content: center;
 }
 
-div, nav{
+div, nav, footer{
     margin: 0 11vw;
     padding: 0;
     
@@ -70,16 +70,17 @@ nav > ul{
 }
 
 .banner-text{
-    margin-bottom: 140px;
+    margin-bottom: 50px;
     line-height: 40px;
 }
 
 .banner-form{
     
-    margin-top: -50px;
+    
     background: rgba(255, 255, 255, 0.30);
     left: 10%;
-    margin: 0 30%;
+    margin: 0 150px;
+    
     
 }
 
@@ -88,14 +89,60 @@ nav > ul{
      flex-direction: row;
      flex-wrap: wrap;
      padding: 30px;
+     justify-content: space-around;
       
+}
+
+.banner-form form input{
+    width: 174px;
+    height: 32px;
+    border-radius: 8px;
+    background: #FFF;
+    border-color: transparent;
+    color: rgba(19, 19, 24, 0.50);
+
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.banner-form form select{
+    width: 174px;
+    height: 32px;
+    border-radius: 8px;
+    background: #FFF;
+    border-color: transparent;
+
+    color: rgba(19, 19, 24, 0.50);
+
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.banner-form form button{
+    width: 174px;
+    height: 32px;
+    border-radius: 8px;
+    background: #FF5400;
+    border-color: transparent;
+    color: rgba(19, 19, 24, 0.50);
+
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
 }
 
 .sec2{
     margin-top: 50px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
+    
+    
     
 }
 
@@ -104,7 +151,205 @@ nav > ul{
     right: 170px;
     margin-right: -50px;
     text-align: justify;
-    padding-top: -90px;
-    padding-bottom: 200px;
+    margin-bottom: 80px;
+    
+    
+  
     
 }
+
+.sec2-texts p, .sec2-texts ul, .sec2-texts h1{
+    color: rgba(19, 19, 24, 0.70);
+
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    
+}
+.sec2 ul{
+   list-style-type: square;
+}
+
+.button-container{
+    position: relative;
+    left: -170px;
+    justify-content: flex-start;
+}
+
+.button-container button{
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+
+.sec3{
+    margin-top: 50px;
+    
+}
+
+.sec3-texts{
+    align-items: center;
+}
+
+.sec3-pics{
+    margin-top: 50px;
+    
+    display: grid;
+    
+    align-content: stretch;
+    row-gap: 10px;
+    
+}
+.row1{
+    
+    display: grid;
+    justify-content: start;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 300px;
+    column-gap: 80px;
+    
+    
+
+}
+
+.row2{
+    display: grid;
+    justify-content: start;
+    
+    grid-template-columns: 300px 420px 200px;
+    justify-items: start;
+    grid-template-rows: 300px;
+    column-gap: 80px;
+   
+    
+   
+}
+
+.row3{
+    display: grid;
+    justify-content: start;
+    grid-template-columns: 400px 700px ;
+    grid-template-rows: 300px;
+    column-gap: 80px;
+   
+}
+
+.row1 img{
+    width: 573px;
+    height: 300px;
+}
+
+
+.sec4{
+    margin-top: 50px;
+}
+
+.sec4-texts{
+    align-items: center;
+}
+
+.sec4-cards{
+    margin-top: 50px;
+    display: grid;
+    
+}
+
+.card{
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    text-align: left;
+    padding: 12px;
+
+}
+
+
+.sec5{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+    
+    
+}
+
+.sec5-texts{
+    position: relative;
+    left: 50px;
+    margin-left: -10px;
+    text-align: justify;
+    margin-bottom: 100px;
+    
+    
+  
+    
+}
+
+
+.sec6{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+    
+    
+}
+
+.sec5-text6{
+    position: relative;
+    left: 50px;
+    margin-left: -10px;
+    text-align: justify;
+    margin-bottom: 100px;
+    
+    
+  
+    
+}
+
+.footer{
+    padding-top: 50px;
+}
+
+.logo-foot{
+
+   display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
+    position: relative;
+    right: 170px;
+    flex-wrap: wrap;
+    
+}
+
+
+footer p, footer h5{
+    justify-items: center;
+}
+
+.logo-foot h2{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+
+}
+
