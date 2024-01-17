@@ -231,6 +231,52 @@ nav > ul{
 
 }
 
+.row1-text{
+    color: white;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    gap: 500px;
+    margin-top: 110px;
+}
+
+
+.row2-text{
+
+    color: white;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    gap: 230px;
+    margin-top: 111px;
+    margin-right: 40px;
+}
+
+
+
+
+
+.Maldives{
+   
+    margin-left: 50px;
+    
+}
+
+.Indonesia{
+    position: absolute;
+    margin-left: 1200px;
+    
+}
+
+
+
+.Bandorban{
+
+    position: absolute;
+    margin-left: 1150px;
+
+}
+
 .row2{
     display: grid;
     justify-content: start;
@@ -401,6 +447,28 @@ nav > ul{
 
 
 
+.surprise{
+    background: url("Images/suitcase.png") no-repeat;
+    width: 600px;
+    height: 600px; 
+    background-position: center;
+    transition: 1s;
+
+}
+
+
+.surprise:hover{
+    background: url("Images/offer2.jpg") no-repeat, url("Images/offer3.jpg") no-repeat,  url("Images/offer4.jpg") no-repeat;
+    width: 1100px;
+    height: 600px; 
+    background-position: 2px 100px, 380px 100px, 750px 100px;
+    
+    background-size: 350px 350px, 350px 350px, 350px 350px;
+
+
+}
+
+
 
 
 .sec6{
@@ -414,11 +482,15 @@ nav > ul{
 }
 
 .sec6-texts{
-    
+    width: 474px;
+height: 422px;
     right: 170px;
     margin-right: -50px;
     text-align: justify;
     margin-bottom: 80px;
+    border-radius: 16px;
+border: 1px solid #FF5400;
+padding: 50px;
     
     
   
@@ -442,6 +514,7 @@ nav > ul{
 
 .sec6 hr{
     width: 500px;
+    height: 1px;
     color: rgba(19, 19, 24, 0.10);
     margin-left: 5px;
 
@@ -514,6 +587,14 @@ line-height: normal;
 
 footer{
     padding-top: 50px;
+    background: rgba(19, 19, 24, 0.05);
+    
+    margin: 0px 0.001%;
+    
+    background-size: cover;
+
+    right: 500px;
+
 }
 
 .logo-foot{
