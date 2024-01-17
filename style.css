@@ -6,14 +6,13 @@
 }
 
 div, nav, footer{
-    margin: 0 11vw ;
+    margin: 0 11vw;
     
     padding: 0;
     
     font-family: Mulish;
 
-    border: solid;
-    border-width: 2px;
+    
    
     max-width: 3000px;
     
@@ -53,7 +52,7 @@ nav{
 nav > ul{
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: 10px;
 }
 
 .sec1{
@@ -160,7 +159,11 @@ nav > ul{
     
 }
 
-.sec2-texts p, .sec2-texts ul, .sec2-texts h1{
+.sec2-texts h1{
+   font-weight: 800;  color: #131318; font-size: 40px;
+}
+
+.sec2-texts p, .sec2-texts ul{
     color: rgba(19, 19, 24, 0.70);
 
     font-family: Mulish;
@@ -268,29 +271,66 @@ nav > ul{
 
 
 .card{
-    width: 300px;
+    width: 500px;
     height: 200px;
     border-radius: 16px;
     text-align: left;
     padding: 12px;
+    border-radius: 16px;
 
 }
 
 
-.first-row{
-    display: flex;
-    flex-direction: row;
-    gap: 50px;
-    justify-content: flex-start;
-    width: fit-content;
+
+.sec4-texts{
+    align-items: center;
 }
+
+.sec4-cards{
+    margin-top: 50px;
+    
+    display: grid;
+    
+    align-content: stretch;
+    row-gap: 10px;
+    column-gap: 10px;
+    
+}
+.row-first{
+    
+    display: grid;
+    justify-content: start;
+    grid-template-columns: 400px  400px  300px;
+    grid-template-rows: 250px;
+    column-gap: 150px;
+    
+    
+    
+    
+    
+
+}
+
+.row-second{
+    display: grid;
+    justify-content: center;
+    
+    grid-template-columns: 0px 550px 0px;
+    justify-items: start;
+    grid-template-rows: 300px;
+    column-gap: 80px;
+   
+    
+   
+}
+
+
 
 .sec5{
     margin-top: 50px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    gap: 50px;
+    justify-content: space-around;
     
     
     
@@ -298,16 +338,98 @@ nav > ul{
 
 .sec5-texts{
     
-    right:50px;
+    right: 170px;
     margin-right: -50px;
     text-align: justify;
-    width: 600px;
+    margin-bottom: 80px;
+    
     
   
     
 }
 
-.sec5-texts p, .sec2-texts h1{
+.sec5-texts h1{
+   font-weight: 800;  color: #131318; font-size: 40px;
+}
+
+.sec5-texts p, .sec5-texts ul{
+    color: rgba(19, 19, 24, 0.70);
+
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    
+}
+.sec5 ul{
+   list-style-type: square;
+}
+
+.button-container{
+    position: relative;
+    left: -170px;
+    justify-content: flex-start;
+}
+
+.button-container button{
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.sec5 h2{
+    
+    
+    color: white;
+    text-align: center;
+    margin-left: 130px;
+    position: absolute;
+    width: 300px;
+}
+
+
+
+
+
+.sec6{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    
+    
+}
+
+.sec6-texts{
+    
+    right: 170px;
+    margin-right: -50px;
+    text-align: justify;
+    margin-bottom: 80px;
+    
+    
+  
+    
+}
+
+.sec6-texts h1{
+   font-weight: 800;  color: #131318; font-size: 40px;
+}
+
+.sec6-texts p{
     color: rgba(19, 19, 24, 0.70);
 
     font-family: Mulish;
@@ -318,30 +440,79 @@ nav > ul{
     
 }
 
+.sec6 hr{
+    width: 500px;
+    color: rgba(19, 19, 24, 0.10);
+    margin-left: 5px;
 
-.sec6{
-    margin-top: 50px;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    
-    
-    
 }
 
-.sec5-text6{
+
+.sec6 form{
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+.sec6 form input{
+    width: 393px;
+height: 52px;
+flex-shrink: 0;
+border-radius: 8px;
+background: rgba(19, 19, 24, 0.05);
+color: rgba(19, 19, 24, 0.30);
+border-color: transparent;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+
+}
+
+
+.button-container{
     position: relative;
-    left: 50px;
-    margin-left: -10px;
-    text-align: justify;
-    margin-bottom: 100px;
+    left: -170px;
+    justify-content: flex-start;
+}
+
+.button-container button{
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
     
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+    
+.sec6 h2{
+    background-color: #FF5400;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    width: 300px;
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 250px;
+    transform: rotate(-30deg);
+
+}
     
   
     
-}
 
-.footer{
+
+footer{
     padding-top: 50px;
 }
 
@@ -359,7 +530,10 @@ nav > ul{
     
 }
 
-
+footer hr{
+    width: 872px;
+    height: 1px;
+}
 footer p, footer h5{
     justify-items: center;
 }
@@ -372,3 +546,6 @@ footer p, footer h5{
 
 }
 
+@media screen {
+    
+}
