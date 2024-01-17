@@ -1210,12 +1210,12 @@ video{
 @media screen and (max-width: 600px) {
 
 
-    nav > ul{
+    .menu{
         
         display: none;
         background: url("Images/Hamburger.png");
-        width: 10px;
-        height: 10px;
+        width: 100px;
+        height: 100px;
         background-size: 10px 10px;
         background-position: center;
     }
