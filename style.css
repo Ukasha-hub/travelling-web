@@ -370,7 +370,129 @@ nav > ul{
    
 }
 
+.optional{
+    margin-top: 50px;
+   
 
+}
+
+.optional-texts{
+    text-align: center;
+}
+
+.optional-texts h1{
+    color: #131318;
+
+text-align: center;
+font-family: Mulish;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+.optional-texts p{
+    color: rgba(19, 19, 24, 0.70);
+
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+
+.part1{
+    background: url("Images/Group\ 39.png");
+    position: relative;
+    right: 180px;
+    width: 1170px;
+    height: 500px;
+    flex-shrink: 0;
+    background-size: 1200px 500px;
+    border-radius: 16px;
+}
+
+.part2{
+    background: url("Images/Group\ 40.png");
+    background-size: 1200px 500px; 
+    position: relative;
+    right: 180px;
+    width: 1170px;   
+    height: 500px;
+    flex-shrink: 0;
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 16px;
+}
+
+.frame{
+    width: 500px;
+height: 300px;
+flex-shrink: 0;
+
+border-radius: 16px;
+border: 2px solid #FFF;
+
+background: rgba(255, 255, 255, 0.80);
+
+backdrop-filter: blur(2.5px);
+padding: 50px;
+position: relative;
+
+}
+
+.frame ul{
+    position: relative;
+    right: 40px;
+}
+
+.frame h1{
+    color: #131318;
+
+font-family: Mulish;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+.frame p{
+    color: #5A5A5D;
+
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+
+.frame h3{
+    color: #FF5400;
+
+font-family: Mulish;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+.part1 .frame{
+    left: 350px ;
+}
+
+.part2 .frame{
+    right: 100px;
+}
+
+.frame ul{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: flex-start;
+    align-content: start;
+}
 
 .sec5{
     margin-top: 50px;
