@@ -37,7 +37,7 @@ nav{
     gap: 10px;
     position: relative;
     right: 170px;
-    flex-wrap: wrap;
+    
     
 }
 
@@ -52,7 +52,7 @@ nav{
 nav > ul{
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 30px;
 }
 
 .sec1{
@@ -159,6 +159,11 @@ nav > ul{
     
 }
 
+.sec2-img img{
+    width: 540px; 
+    height: 550px;
+}
+
 .sec2-texts h1{
    font-weight: 800;  color: #131318; font-size: 40px;
 }
@@ -240,6 +245,9 @@ nav > ul{
     margin-top: 110px;
 }
 
+#maldives{
+
+}
 
 .row2-text{
 
@@ -304,6 +312,11 @@ nav > ul{
     height: 300px;
 }
 
+.row2 img{}
+
+.row3 img{
+
+}
 
 .sec4{
     margin-top: 50px;
@@ -749,6 +762,446 @@ footer p, footer h5{
 
 }
 
-@media screen {
+#srilanka{
+    width: 374px;
+            height: 286px;
+}
+
+#america{
+    width: 494px;
+            height: 286px;
+}
+
+#kashmir{
+    width: 274px;
+            height: 286px;
+}
+
+#bangladesh{
+
+}
+
+#bandorban{
+
+}
+video{
+        
+}
+
+.sec6-img img{
+    width: 600px; margin-bottom: 60px;
+            height: 522px;
+}
+
+.Bangladesh{
+
+}
+
+/*------------------------------------------------------------------------------------------------------------------*/
+@media only screen and (max-width: 992px)  {
+
+    div, nav, footer{
+        
+    
+        
+       
+        max-width: 992px;
+        
+        
+    }
+
+    .logo{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        right: 10px;
+        gap: 10px;
+        position: relative;
+        left: 5px;
+        
+        
+    }
+
+    .sec1{
+        margin-top: 50px;
+        background:  linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('Images/Group\ 13\ \(1\)\ \(1\).png');
+        width: 930px;
+        height: 500px;
+        background-size: 1200px 500px;
+        background-position: center; 
+        background-repeat: no-repeat;
+        text-align: center;
+        color: white;
+        position: relative;
+        right: 90px;
+
+    }
+
+    .banner-form form input{
+        width: 130px;
+        height: 32px;
+        border-radius: 8px;
+        background: #FFF;
+        border-color: transparent;
+        color: rgba(19, 19, 24, 0.50);
+    
+        font-family: Mulish;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+    }
+    
+    .banner-form form select{
+        width: 130px;
+        height: 32px;
+        border-radius: 8px;
+        background: #FFF;
+        border-color: transparent;
+    
+        color: rgba(19, 19, 24, 0.50);
+    
+        font-family: Mulish;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+    }
+    
+    .banner-form form button{
+        width: 130px;
+        height: 32px;
+        border-radius: 8px;
+        background: #FF5400;
+        border-color: transparent;
+        color: rgba(19, 19, 24, 0.50);
+    
+        font-family: Mulish;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+    }
+
+    .sec2-texts{
+        position: relative;
+        left: 20px;
+    }
+
+    .sec2-img img{
+        width: 500px; 
+    height: 550px;
+    }
+
+    .button-container{
+        position: relative;
+       left: -110px; ;
+    }
+
+    .sec3-pics{
+        position: relative;
+        right: 100px;
+    }
+    
+    .row1{
+        position: relative;
+        left: 20px;
+        display: grid;
+        justify-content: start;
+        grid-template-columns: 500px 500px;
+        grid-template-rows: 300px;
+        column-gap: 80px;
+        
+        
+    
+    }
+
+    .row1 img{
+        width: 470px;
+        height: 300px;
+    }
+
+    #maldives{
+        position: relative;
+        left: 100px;
+    }
+
+    .Maldives{
+        position: relative; 
+        left: 100px;
+    }
+
+    .Kashmir{
+        position: relative;
+        left: 70px;
+    }
+
+    .Srilanka{
+        position:relative;
+        left: 50px;
+    }
+
+    .row2{
+        position: relative;
+        left: 20px;
+        display: grid;
+        justify-content: start;
+        
+        grid-template-columns: 200px 320px 100px;
+        justify-items: start;
+        grid-template-rows: 300px;
+        column-gap: 180px; 
+    }
+
+    .row2 img{
+        width: 170px;
+        height: 300px;
+    }
+
+    #srilanka{
+        width: 300px;
+                height: 286px;
+                position: relative;
+                left: 100px;
+    }
+
+    #america{
+        width: 430px;
+                height: 286px;
+                position: relative;
+                left: 30px;
+    }
+    
+    #kashmir{
+        width: 200px;
+                height: 286px;
+                position: relative;
+                right: 30px;
+    }
+
+    .row3{
+        display: grid;
+        justify-content: start;
+        grid-template-columns: 300px 700px ;
+        grid-template-rows: 300px;
+        column-gap: 80px;
+       
+    }
+
+    .row3 img{
+        position: relative;
+        left: 120px;
+        
+    }
+
+    #bangladesh{
+
+        width: 370px;
+        height: 250px;
+        position: relative;
+
+
+    }
+    
+    #bandorban{
+        width: 562px;
+        position: relative;
+        right: 200px;
+        
+    }
+
+    .card{
+        width: 350px;
+        height: 200px;
+        border-radius: 16px;
+        text-align: left;
+        padding: 12px;
+        border-radius: 16px;
+    
+    }
+
+    .sec4-cards{
+
+        position: relative;
+        left: 130px;
+        margin-top: 50px;
+        
+        display: grid;
+        
+        align-content: stretch;
+        row-gap: 10px;
+        column-gap: 10px;
+        
+    }
+
+    .row-first{
+        position: relative;
+        right: 200px;
+    }
+
+    .row-second{
+        position: relative;
+        right: 50px;
+
+        display: grid;
+        justify-content: center;
+        
+        grid-template-columns: 0px 550px 0px;
+        justify-items: start;
+        grid-template-rows: 300px;
+        column-gap: 80px;
+       
+        
+       
+    }
+
+
+
+    .part1{
+        background: url("Images/Group\ 39.png");
+        position: relative;
+        right: 180px;
+        width: 900px;
+        height: 500px;
+        flex-shrink: 0;
+        background-size: 1200px 500px;
+        border-radius: 16px;
+    }
+    
+    .part2{
+        background: url("Images/Group\ 40.png");
+        background-size: 1200px 500px; 
+        position: relative;
+        right: 180px;
+        width: 900px;   
+        height: 500px;
+        flex-shrink: 0;
+        
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-radius: 16px;
+    }
+    
+    .frame{
+        width: 300px;
+    height: 300px;
+    flex-shrink: 0;
+    
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    
+    background: rgba(255, 255, 255, 0.80);
+    
+    backdrop-filter: blur(2.5px);
+    padding: 50px;
+    position: relative;
+    
+    }
+
+    .frame h1{
+        color: #131318;
+    
+    font-family: Mulish;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    }
+    
+    .frame p{
+        color: #5A5A5D;
+    
+    font-family: Mulish;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    }
+    
+    .frame h3{
+        color: #FF5400;
+    
+    font-family: Mulish;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    }
+    
+    .part1 .frame{
+        left: 350px ;
+    }
+    
+    .part2 .frame{
+        right: 100px;
+    }
+
+    .sec5-texts{
+    
+        position: relative;
+        left: 20px;
+        
+   
+    }
+
+    video{
+
+        width: 500px; 
+    height: 380px;
+
+    }
+
+    .surprise:hover{
+
+        position: relative;
+        right: 210px;
+        background: url("Images/offer2.jpg") no-repeat, url("Images/offer3.jpg") no-repeat,  url("Images/offer4.jpg") no-repeat;
+        width: 1100px;
+        height: 600px; 
+        background-position: 2px 150px, 380px 150px, 750px 150px;
+        
+        background-size: 200px 200px, 200px 200px, 200px 200px;
+    
+    
+    }
+
+    .sec6{
+        position: relative;
+        left: 100px;
+    }
+
+    .sec6-texts{
+    
+        position: relative;
+        right: 30px;
+
+        padding: 50px 10px;
+        
+        
+   
+    }
+
+    .sec6 hr{
+        width: 400px;
+        height: 1px;
+    }
+
+    .sec6-img img{
+        position: relative;
+        right: 50px;
+        width: 470px; margin-bottom: 60px;
+        height: 522px;
+
+    }
+
+    .sec6 h2{
+        position: relative;
+        bottom: 440px;
+        right: 140px;
+    }
+
+    .Bangladesh{
+        position: relative;
+        left: 100px;
+    }
+
+    
     
 }
